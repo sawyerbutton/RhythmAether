@@ -66,7 +66,8 @@ docs/
 │   └── gameplay-design-operations-report.md # 玩法设计哲学 + 运营模式
 │
 └── design/                                # 设计决策
-    └── ai-music-integration-strategy.md   # AI 音乐生成集成 + 世界观音乐匹配系统
+    ├── core-gameplay-design.md            # 核心玩法设计（Note 类型 / 判定系统 / 分数评级 / 手感规范）
+    └── ai-music-integration.md            # AI 音乐生成集成 + 世界观音乐匹配系统
 ```
 
 ## 开发方式
