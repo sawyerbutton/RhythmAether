@@ -1,0 +1,103 @@
+[gd_scene load_steps=4 format=3 uid="uid://gameplay001"]
+
+[ext_resource type="Script" path="res://scripts/gameplay.gd" id="1_gameplay"]
+[ext_resource type="Shader" path="res://resources/shaders/ink_background.gdshader" id="2_shader"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_bg"]
+shader = ExtResource("2_shader")
+shader_parameter/time_scale = 0.15
+shader_parameter/beat_pulse = 0.0
+shader_parameter/base_color = Color(0.102, 0.102, 0.18, 1)
+shader_parameter/ink_color = Color(0.91, 0.27, 0.37, 1)
+shader_parameter/deep_color = Color(0.06, 0.21, 0.38, 1)
+
+[node name="Gameplay" type="Node2D"]
+script = ExtResource("1_gameplay")
+
+[node name="Background" type="ColorRect" parent="."]
+material = SubResource("ShaderMaterial_bg")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color(0.102, 0.102, 0.18, 1)
+
+[node name="JudgmentGlow" type="Line2D" parent="."]
+width = 20.0
+default_color = Color(0.91, 0.27, 0.37, 0.15)
+
+[node name="JudgmentLine" type="Line2D" parent="."]
+width = 3.0
+default_color = Color(0.91, 0.27, 0.37, 0.9)
+
+[node name="NotesContainer" type="Node2D" parent="."]
+
+[node name="ParticlesContainer" type="Node2D" parent="."]
+
+[node name="AudioPlayer" type="AudioStreamPlayer" parent="."]
+
+[node name="HitsoundPlayer" type="AudioStreamPlayer" parent="."]
+
+[node name="UILayer" type="CanvasLayer" parent="."]
+
+[node name="ScoreLabel" type="Label" parent="UILayer"]
+offset_left = 20.0
+offset_top = 12.0
+offset_right = 260.0
+offset_bottom = 48.0
+theme_override_font_sizes/font_size = 26
+theme_override_colors/font_color = Color(0.85, 0.85, 0.9, 0.9)
+text = "0"
+
+[node name="DiffLabel" type="Label" parent="UILayer"]
+offset_left = 350.0
+offset_top = 12.0
+offset_right = 530.0
+offset_bottom = 40.0
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.91, 0.27, 0.37, 0.7)
+text = "NORMAL Lv.5"
+horizontal_alignment = 2
+
+[node name="ComboLabel" type="Label" parent="UILayer"]
+offset_left = 150.0
+offset_top = 70.0
+offset_right = 390.0
+offset_bottom = 140.0
+theme_override_font_sizes/font_size = 52
+theme_override_colors/font_color = Color(1, 0.84, 0, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+pivot_offset = Vector2(120, 35)
+visible = false
+
+[node name="ComboSubLabel" type="Label" parent="UILayer"]
+offset_left = 200.0
+offset_top = 135.0
+offset_right = 340.0
+offset_bottom = 155.0
+theme_override_font_sizes/font_size = 14
+theme_override_colors/font_color = Color(0.7, 0.7, 0.75, 0.6)
+text = "COMBO"
+horizontal_alignment = 1
+visible = false
+
+[node name="JudgmentLabel" type="Label" parent="UILayer"]
+offset_left = 70.0
+offset_top = 780.0
+offset_right = 470.0
+offset_bottom = 820.0
+theme_override_font_sizes/font_size = 30
+horizontal_alignment = 1
+vertical_alignment = 1
+visible = false
+
+[node name="TimingLabel" type="Label" parent="UILayer"]
+offset_left = 170.0
+offset_top = 818.0
+offset_right = 370.0
+offset_bottom = 840.0
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.65, 0.65, 0.7, 0.7)
+horizontal_alignment = 1
+vertical_alignment = 1
+visible = false

@@ -1,0 +1,159 @@
+{
+  "version": "1.0.0",
+  "metadata": {
+    "title": "Think Outside the Box",
+    "artist": "Harry Romero & Alex Fioretti",
+    "charter": "RhythmAether",
+    "audioFile": "../audio/think_outside_the_box.ogg",
+    "difficulty": {
+      "label": "Normal",
+      "level": 5
+    }
+  },
+  "timing": [
+    {
+      "beat": 0,
+      "bpm": 124,
+      "timeSignature": { "numerator": 4, "denominator": 4 }
+    }
+  ],
+  "offset": 1.595,
+  "notes": [
+    {"type": "tap", "beat": 0.0, "x": 0.375},
+    {"type": "tap", "beat": 2.0, "x": 0.625},
+
+    {"type": "tap", "beat": 4.0, "x": 0.125},
+    {"type": "tap", "beat": 5.0, "x": 0.375},
+    {"type": "tap", "beat": 6.0, "x": 0.625},
+    {"type": "tap", "beat": 7.0, "x": 0.875},
+
+    {"type": "tap", "beat": 8.0, "x": 0.375},
+    {"type": "tap", "beat": 8.5, "x": 0.625},
+    {"type": "tap", "beat": 9.0, "x": 0.375},
+    {"type": "tap", "beat": 9.5, "x": 0.625},
+    {"type": "tap", "beat": 10.0, "x": 0.125},
+    {"type": "tap", "beat": 10.5, "x": 0.375},
+    {"type": "tap", "beat": 11.0, "x": 0.625},
+    {"type": "tap", "beat": 11.5, "x": 0.875},
+
+    {"type": "tap", "beat": 12.0, "x": 0.125},
+    {"type": "tap", "beat": 12.0, "x": 0.875},
+    {"type": "tap", "beat": 13.0, "x": 0.375},
+    {"type": "tap", "beat": 13.0, "x": 0.625},
+    {"type": "hold", "beat": 14.0, "endBeat": 16.0, "x": 0.375},
+    {"type": "tap", "beat": 15.0, "x": 0.875},
+
+    {"type": "tap", "beat": 16.0, "x": 0.125},
+    {"type": "tap", "beat": 16.5, "x": 0.375},
+    {"type": "tap", "beat": 17.0, "x": 0.625},
+    {"type": "tap", "beat": 17.5, "x": 0.875},
+    {"type": "tap", "beat": 18.0, "x": 0.625},
+    {"type": "tap", "beat": 18.5, "x": 0.375},
+    {"type": "tap", "beat": 19.0, "x": 0.125},
+    {"type": "tap", "beat": 19.5, "x": 0.875},
+
+    {"type": "tap", "beat": 20.0, "x": 0.375},
+    {"type": "tap", "beat": 20.0, "x": 0.625},
+    {"type": "tap", "beat": 21.0, "x": 0.125},
+    {"type": "tap", "beat": 21.0, "x": 0.875},
+    {"type": "tap", "beat": 22.0, "x": 0.375},
+    {"type": "tap", "beat": 22.5, "x": 0.625},
+    {"type": "tap", "beat": 23.0, "x": 0.375},
+    {"type": "tap", "beat": 23.5, "x": 0.625},
+
+    {"type": "hold", "beat": 24.0, "endBeat": 26.0, "x": 0.125},
+    {"type": "tap", "beat": 25.0, "x": 0.625},
+    {"type": "tap", "beat": 25.5, "x": 0.875},
+    {"type": "tap", "beat": 26.0, "x": 0.375},
+    {"type": "tap", "beat": 26.5, "x": 0.625},
+    {"type": "tap", "beat": 27.0, "x": 0.875},
+    {"type": "tap", "beat": 27.5, "x": 0.625},
+
+    {"type": "tap", "beat": 28.0, "x": 0.125},
+    {"type": "tap", "beat": 28.5, "x": 0.375},
+    {"type": "tap", "beat": 29.0, "x": 0.625},
+    {"type": "tap", "beat": 29.5, "x": 0.875},
+    {"type": "tap", "beat": 30.0, "x": 0.625},
+    {"type": "tap", "beat": 30.5, "x": 0.375},
+    {"type": "tap", "beat": 31.0, "x": 0.125},
+    {"type": "tap", "beat": 31.0, "x": 0.875},
+
+    {"type": "tap", "beat": 32.0, "x": 0.125},
+    {"type": "tap", "beat": 32.0, "x": 0.375},
+    {"type": "tap", "beat": 32.0, "x": 0.625},
+    {"type": "tap", "beat": 32.0, "x": 0.875},
+
+    {"type": "tap", "beat": 33.0, "x": 0.375},
+    {"type": "tap", "beat": 33.5, "x": 0.625},
+    {"type": "tap", "beat": 34.0, "x": 0.375},
+    {"type": "tap", "beat": 34.5, "x": 0.625},
+    {"type": "hold", "beat": 35.0, "endBeat": 36.0, "x": 0.125},
+    {"type": "tap", "beat": 35.0, "x": 0.875},
+
+    {"type": "tap", "beat": 36.0, "x": 0.375},
+    {"type": "tap", "beat": 36.25, "x": 0.625},
+    {"type": "tap", "beat": 36.5, "x": 0.375},
+    {"type": "tap", "beat": 36.75, "x": 0.625},
+    {"type": "tap", "beat": 37.0, "x": 0.125},
+    {"type": "tap", "beat": 37.5, "x": 0.375},
+    {"type": "tap", "beat": 38.0, "x": 0.625},
+    {"type": "tap", "beat": 38.5, "x": 0.875},
+    {"type": "tap", "beat": 39.0, "x": 0.125},
+    {"type": "tap", "beat": 39.0, "x": 0.875},
+
+    {"type": "hold", "beat": 40.0, "endBeat": 42.0, "x": 0.375},
+    {"type": "hold", "beat": 40.0, "endBeat": 42.0, "x": 0.625},
+
+    {"type": "tap", "beat": 42.0, "x": 0.125},
+    {"type": "tap", "beat": 42.5, "x": 0.375},
+    {"type": "tap", "beat": 43.0, "x": 0.625},
+    {"type": "tap", "beat": 43.5, "x": 0.875},
+
+    {"type": "tap", "beat": 44.0, "x": 0.875},
+    {"type": "tap", "beat": 44.5, "x": 0.625},
+    {"type": "tap", "beat": 45.0, "x": 0.375},
+    {"type": "tap", "beat": 45.5, "x": 0.125},
+    {"type": "tap", "beat": 46.0, "x": 0.375},
+    {"type": "tap", "beat": 46.0, "x": 0.625},
+    {"type": "hold", "beat": 47.0, "endBeat": 48.0, "x": 0.875},
+
+    {"type": "tap", "beat": 48.0, "x": 0.125},
+    {"type": "tap", "beat": 48.25, "x": 0.375},
+    {"type": "tap", "beat": 48.5, "x": 0.625},
+    {"type": "tap", "beat": 48.75, "x": 0.875},
+    {"type": "tap", "beat": 49.0, "x": 0.625},
+    {"type": "tap", "beat": 49.25, "x": 0.375},
+    {"type": "tap", "beat": 49.5, "x": 0.125},
+    {"type": "tap", "beat": 49.75, "x": 0.375},
+
+    {"type": "tap", "beat": 50.0, "x": 0.625},
+    {"type": "tap", "beat": 50.5, "x": 0.875},
+    {"type": "tap", "beat": 51.0, "x": 0.625},
+    {"type": "tap", "beat": 51.5, "x": 0.375},
+    {"type": "tap", "beat": 52.0, "x": 0.125},
+    {"type": "tap", "beat": 52.0, "x": 0.875},
+    {"type": "tap", "beat": 53.0, "x": 0.375},
+    {"type": "tap", "beat": 53.0, "x": 0.625},
+
+    {"type": "hold", "beat": 54.0, "endBeat": 56.0, "x": 0.125},
+    {"type": "hold", "beat": 54.0, "endBeat": 56.0, "x": 0.875},
+
+    {"type": "tap", "beat": 56.0, "x": 0.375},
+    {"type": "tap", "beat": 56.5, "x": 0.625},
+    {"type": "tap", "beat": 57.0, "x": 0.375},
+    {"type": "tap", "beat": 57.5, "x": 0.625},
+    {"type": "tap", "beat": 58.0, "x": 0.125},
+    {"type": "tap", "beat": 58.5, "x": 0.375},
+    {"type": "tap", "beat": 59.0, "x": 0.625},
+    {"type": "tap", "beat": 59.5, "x": 0.875},
+
+    {"type": "tap", "beat": 60.0, "x": 0.125},
+    {"type": "tap", "beat": 60.0, "x": 0.375},
+    {"type": "tap", "beat": 60.0, "x": 0.625},
+    {"type": "tap", "beat": 60.0, "x": 0.875},
+
+    {"type": "hold", "beat": 62.0, "endBeat": 64.0, "x": 0.375},
+    {"type": "hold", "beat": 62.0, "endBeat": 64.0, "x": 0.625}
+  ],
+  "events": []
+}

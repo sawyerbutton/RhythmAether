@@ -1,0 +1,15 @@
+# Godot generated
+game/.godot/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+
+# Claude
+.claude/
+
+# Large originals (keep .ogg versions)
+game/resources/audio/*.mp3

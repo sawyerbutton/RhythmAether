@@ -1,0 +1,33 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; but it can also be edited via code if you know what you're doing.
+
+[application]
+
+config/name="RhythmAether"
+config/description="Creator-First Open Rhythm Game Platform"
+run/main_scene="res://scenes/gameplay.tscn"
+config/features=PackedStringArray("4.3")
+
+[display]
+
+window/size/viewport_width=540
+window/size/viewport_height=960
+window/stretch/mode="canvas_items"
+window/stretch/aspect="keep"
+
+[input]
+
+[rendering]
+
+renderer/rendering_method="mobile"
+textures/vram_compression/import_etc2_astc=true
+environment/defaults/default_clear_color=Color(0.102, 0.102, 0.18, 1)
+
+[audio]
+
+buses/default_bus_layout=""
+
+[autoload]
+
+GameManager="*res://scripts/game_manager.gd"

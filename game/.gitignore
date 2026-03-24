@@ -1,0 +1,9 @@
+# Godot generated
+.godot/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary
+*.tmp

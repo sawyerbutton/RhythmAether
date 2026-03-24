@@ -1,0 +1,160 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RACF - RhythmAether Chart Format",
+  "description": "Chart format for RhythmAether rhythm game",
+  "type": "object",
+  "required": ["version", "metadata", "timing", "notes"],
+  "properties": {
+    "version": {
+      "type": "string",
+      "const": "1.0.0",
+      "description": "RACF format version"
+    },
+    "metadata": {
+      "type": "object",
+      "required": ["title", "artist", "audioFile", "difficulty"],
+      "properties": {
+        "title": { "type": "string" },
+        "artist": { "type": "string" },
+        "charter": { "type": "string" },
+        "audioFile": {
+          "type": "string",
+          "description": "Relative path to audio file"
+        },
+        "previewStart": {
+          "type": "number",
+          "description": "Preview start time in seconds"
+        },
+        "previewDuration": {
+          "type": "number",
+          "description": "Preview duration in seconds",
+          "default": 15
+        },
+        "coverImage": { "type": "string" },
+        "difficulty": {
+          "type": "object",
+          "required": ["label", "level"],
+          "properties": {
+            "label": {
+              "type": "string",
+              "enum": ["Easy", "Normal", "Hard", "Expert", "Ethereal"]
+            },
+            "level": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 15
+            }
+          }
+        }
+      }
+    },
+    "timing": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["beat", "bpm"],
+        "properties": {
+          "beat": {
+            "type": "number",
+            "description": "Beat position where this timing point takes effect (0 = start)"
+          },
+          "bpm": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "timeSignature": {
+            "type": "object",
+            "properties": {
+              "numerator": { "type": "integer", "default": 4 },
+              "denominator": { "type": "integer", "default": 4 }
+            }
+          }
+        }
+      }
+    },
+    "offset": {
+      "type": "number",
+      "default": 0,
+      "description": "Audio offset in seconds. Positive = audio starts later relative to beat 0"
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "type": "object",
+            "required": ["type", "beat", "x"],
+            "properties": {
+              "type": { "const": "tap" },
+              "beat": { "type": "number", "minimum": 0 },
+              "x": { "type": "number", "minimum": 0, "maximum": 1 }
+            }
+          },
+          {
+            "type": "object",
+            "required": ["type", "beat", "endBeat", "x"],
+            "properties": {
+              "type": { "const": "hold" },
+              "beat": { "type": "number", "minimum": 0 },
+              "endBeat": { "type": "number", "minimum": 0 },
+              "x": { "type": "number", "minimum": 0, "maximum": 1 }
+            }
+          },
+          {
+            "type": "object",
+            "required": ["type", "beat", "x"],
+            "properties": {
+              "type": { "const": "flick" },
+              "beat": { "type": "number", "minimum": 0 },
+              "x": { "type": "number", "minimum": 0, "maximum": 1 }
+            }
+          },
+          {
+            "type": "object",
+            "required": ["type", "beat", "nodes"],
+            "properties": {
+              "type": { "const": "slide" },
+              "beat": { "type": "number", "minimum": 0 },
+              "nodes": {
+                "type": "array",
+                "minItems": 3,
+                "maxItems": 16,
+                "items": {
+                  "type": "object",
+                  "required": ["beat", "x"],
+                  "properties": {
+                    "beat": { "type": "number", "minimum": 0 },
+                    "x": { "type": "number", "minimum": 0, "maximum": 1 }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["type", "beat"],
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": ["cameraShake", "colorFlash", "inkBurst", "backgroundShift", "speedChange", "laneNarrow"]
+          },
+          "beat": { "type": "number", "minimum": 0 },
+          "duration": {
+            "type": "number",
+            "description": "Duration in beats"
+          },
+          "params": {
+            "type": "object",
+            "description": "Event-specific parameters"
+          }
+        }
+      }
+    }
+  }
+}
