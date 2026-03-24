@@ -39,4 +39,4 @@ func _input(event: InputEvent) -> void:
 		_start_game()
 
 func _start_game() -> void:
-	get_tree().change_scene_to_file("res://scenes/gameplay.tscn")
+	get_tree().change_scene_to_file("res://scenes/song_select.tscn")

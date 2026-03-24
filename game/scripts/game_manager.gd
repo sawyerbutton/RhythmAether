@@ -18,5 +18,8 @@ var vibration_enabled: bool = true
 var background_brightness: float = 0.7
 var note_size_scale: float = 1.0
 
+# Selected chart (set by song select screen)
+var selected_chart_path: String = "res://resources/charts/think_outside_the_box.json"
+
 # Result data (passed between gameplay and result screen)
 var last_result: Dictionary = {}

@@ -14,6 +14,15 @@ texture = ExtResource("2_bg")
 expand_mode = 1
 stretch_mode = 6
 
+[node name="VideoBackground" type="VideoStreamPlayer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 540.0
+offset_bottom = 960.0
+expand = true
+visible = false
+
 [node name="BackgroundOverlay" type="ColorRect" parent="."]
 anchors_preset = 15
 anchor_right = 1.0

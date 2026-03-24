@@ -24,6 +24,7 @@ class ChartData:
 	var artist: String
 	var charter: String
 	var audio_file: String
+	var video_file: String = ""
 	var difficulty_label: String
 	var difficulty_level: int
 	var timing_points: Array[TimingPoint] = []
@@ -57,6 +58,7 @@ static func _parse_chart(data: Dictionary) -> ChartData:
 	chart.artist = meta.get("artist", "Unknown")
 	chart.charter = meta.get("charter", "")
 	chart.audio_file = meta.get("audioFile", "")
+	chart.video_file = meta.get("videoFile", "")
 	var diff = meta.get("difficulty", {})
 	chart.difficulty_label = diff.get("label", "Normal")
 	chart.difficulty_level = diff.get("level", 5)

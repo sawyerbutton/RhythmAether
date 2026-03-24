@@ -76,6 +76,6 @@ func _input(event: InputEvent) -> void:
 		if event.keycode == KEY_R or event.keycode == KEY_ENTER:
 			get_tree().change_scene_to_file("res://scenes/gameplay.tscn")
 		elif event.keycode == KEY_ESCAPE or event.keycode == KEY_Q:
-			get_tree().change_scene_to_file("res://scenes/title_screen.tscn")
+			get_tree().change_scene_to_file("res://scenes/song_select.tscn")
 	elif event is InputEventMouseButton and event.pressed:
-		get_tree().change_scene_to_file("res://scenes/title_screen.tscn")
+		get_tree().change_scene_to_file("res://scenes/song_select.tscn")

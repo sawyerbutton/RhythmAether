@@ -1,0 +1,60 @@
+[gd_scene load_steps=3 format=3 uid="uid://songselect001"]
+
+[ext_resource type="Script" path="res://scripts/song_select.gd" id="1_select"]
+[ext_resource type="Texture2D" path="res://assets/textures/bg_title.png" id="2_bg"]
+
+[node name="SongSelect" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource("1_select")
+
+[node name="Background" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource("2_bg")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="Overlay" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color(0.0, 0.0, 0.0, 0.4)
+
+[node name="HeaderLabel" type="Label" parent="."]
+layout_mode = 1
+offset_left = 20.0
+offset_top = 30.0
+offset_right = 520.0
+offset_bottom = 70.0
+theme_override_font_sizes/font_size = 28
+theme_override_colors/font_color = Color(0.91, 0.27, 0.37, 0.9)
+text = "SELECT SONG"
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+layout_mode = 1
+offset_left = 20.0
+offset_top = 90.0
+offset_right = 520.0
+offset_bottom = 850.0
+
+[node name="SongList" type="VBoxContainer" parent="ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 10
+
+[node name="HintLabel" type="Label" parent="."]
+layout_mode = 1
+offset_left = 40.0
+offset_top = 880.0
+offset_right = 500.0
+offset_bottom = 940.0
+theme_override_font_sizes/font_size = 14
+theme_override_colors/font_color = Color(0.5, 0.5, 0.55, 0.6)
+text = "Up/Down = Select    Enter = Play    Q = Back"
+horizontal_alignment = 1

@@ -29,6 +29,7 @@ const LINE_GLOW_COLOR := Color(0.91, 0.27, 0.37, 0.15)
 @onready var judgment_label: Label = $UILayer/JudgmentLabel
 @onready var timing_label: Label = $UILayer/TimingLabel
 @onready var bg_overlay: ColorRect = $BackgroundOverlay
+@onready var video_player: VideoStreamPlayer = $VideoBackground
 
 # --- State ---
 var chart: ChartLoader.ChartData
@@ -87,7 +88,12 @@ var _key_holds: Dictionary = {}
 var _beat_pulse: float = 0.0
 var _last_beat: int = -1
 
-@export var chart_path: String = "res://resources/charts/think_outside_the_box.json"
+@export var chart_path: String = ""
+
+func _get_chart_path() -> String:
+	if chart_path != "":
+		return chart_path
+	return GameManager.selected_chart_path
 
 func _ready() -> void:
 	_init_key_map()
@@ -146,7 +152,8 @@ func _load_hitsound() -> void:
 	hitsound_player.volume_db = linear_to_db(GameManager.hitsound_volume)
 
 func _load_and_start() -> void:
-	chart = ChartLoader.load_chart(chart_path)
+	var active_chart_path = _get_chart_path()
+	chart = ChartLoader.load_chart(active_chart_path)
 	if not chart:
 		push_error("Failed to load chart!")
 		return
@@ -154,11 +161,20 @@ func _load_and_start() -> void:
 	score_tracker = Judge.ScoreTracker.new()
 	score_tracker.init(chart.total_note_count)
 
-	var audio_path = chart_path.get_base_dir().path_join(chart.audio_file).simplify_path()
+	var audio_path = active_chart_path.get_base_dir().path_join(chart.audio_file).simplify_path()
 	var stream = load(audio_path)
 	if stream:
 		audio_player.stream = stream
 		audio_player.volume_db = linear_to_db(GameManager.music_volume)
+
+	# Check for video background (from chart metadata videoFile field)
+	if video_player:
+		video_player.visible = false
+		if chart.video_file != "":
+			var video_path = active_chart_path.get_base_dir().path_join(chart.video_file).simplify_path()
+			if ResourceLoader.exists(video_path):
+				video_player.stream = load(video_path)
+				video_player.visible = true
 
 	next_note_index = 0
 	playing = true
@@ -180,6 +196,8 @@ func _process(delta: float) -> void:
 
 	if current_time >= 0.0 and not _audio_started and audio_player.stream:
 		audio_player.play()
+		if video_player and video_player.stream and video_player.visible:
+			video_player.play()
 		_audio_started = true
 
 	if audio_player.playing:
