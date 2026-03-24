@@ -66,6 +66,9 @@ var _combo_target_scale: float = 1.0
 
 # Hitsound
 var _hitsound_stream: AudioStream = null
+var _combo_50_stream: AudioStream = null
+var _combo_100_stream: AudioStream = null
+var _hold_sustain_stream: AudioStream = null
 
 # Background particles
 var _bg_particles: Array = []
@@ -131,10 +134,16 @@ func _setup_background_particles() -> void:
 		})
 
 func _load_hitsound() -> void:
-	var path = "res://resources/hitsounds/tap_hit.ogg"
-	if ResourceLoader.exists(path):
-		_hitsound_stream = load(path)
-		hitsound_player.volume_db = linear_to_db(GameManager.hitsound_volume)
+	var base = "res://resources/hitsounds/"
+	if ResourceLoader.exists(base + "tap_hit.ogg"):
+		_hitsound_stream = load(base + "tap_hit.ogg")
+	if ResourceLoader.exists(base + "combo_50.ogg"):
+		_combo_50_stream = load(base + "combo_50.ogg")
+	if ResourceLoader.exists(base + "combo_100.ogg"):
+		_combo_100_stream = load(base + "combo_100.ogg")
+	if ResourceLoader.exists(base + "hold_sustain.ogg"):
+		_hold_sustain_stream = load(base + "hold_sustain.ogg")
+	hitsound_player.volume_db = linear_to_db(GameManager.hitsound_volume)
 
 func _load_and_start() -> void:
 	chart = ChartLoader.load_chart(chart_path)
@@ -613,9 +622,16 @@ func _update_ui() -> void:
 		combo_label.text = "%d" % score_tracker.combo
 		combo_label.visible = true
 		combo_sub_label.visible = true
-		if score_tracker.combo in [50, 100, 200, 500]:
+		if score_tracker.combo == 50 and _combo_50_stream:
 			_shake_intensity = 10.0
 			_combo_scale = 1.6
+			hitsound_player.stream = _combo_50_stream
+			hitsound_player.play()
+		elif score_tracker.combo in [100, 200, 500] and _combo_100_stream:
+			_shake_intensity = 12.0
+			_combo_scale = 1.8
+			hitsound_player.stream = _combo_100_stream
+			hitsound_player.play()
 	else:
 		combo_label.visible = false
 		combo_sub_label.visible = false
@@ -629,42 +645,16 @@ func _on_song_end() -> void:
 	_show_results()
 
 func _show_results() -> void:
-	var results_text = """RESULT
-
-Score: %d
-Rating: %s
-Max Combo: %d / %d
-
-Perfect: %d (%.1f%%)
-Great: %d (%.1f%%)
-Good: %d (%.1f%%)
-Miss: %d (%.1f%%)
-
-Early: %d  Late: %d""" % [
-		score_tracker.get_total_score(),
-		score_tracker.get_rating(),
-		score_tracker.max_combo,
-		score_tracker.total_notes,
-		score_tracker.perfect_count,
-		100.0 * score_tracker.perfect_count / max(score_tracker.total_notes, 1),
-		score_tracker.great_count,
-		100.0 * score_tracker.great_count / max(score_tracker.total_notes, 1),
-		score_tracker.good_count,
-		100.0 * score_tracker.good_count / max(score_tracker.total_notes, 1),
-		score_tracker.miss_count,
-		100.0 * score_tracker.miss_count / max(score_tracker.total_notes, 1),
-		score_tracker.early_count,
-		score_tracker.late_count
-	]
-
-	combo_label.visible = false
-	judgment_label.visible = false
-	timing_label.visible = false
-	score_label.text = results_text
-	score_label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
-	score_label.autowrap_mode = TextServer.AUTOWRAP_WORD
-	score_label.add_theme_font_size_override("font_size", 22)
-	score_label.offset_left = screen_w * 0.05
-	score_label.offset_top = screen_h * 0.15
-	score_label.offset_right = screen_w * 0.95
-	score_label.offset_bottom = screen_h * 0.85
+	GameManager.last_result = {
+		"score": score_tracker.get_total_score(),
+		"rating": score_tracker.get_rating(),
+		"max_combo": score_tracker.max_combo,
+		"total_notes": score_tracker.total_notes,
+		"perfect": score_tracker.perfect_count,
+		"great": score_tracker.great_count,
+		"good": score_tracker.good_count,
+		"miss": score_tracker.miss_count,
+		"early": score_tracker.early_count,
+		"late": score_tracker.late_count,
+	}
+	get_tree().change_scene_to_file("res://scenes/result_screen.tscn")

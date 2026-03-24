@@ -6,7 +6,7 @@
 
 config/name="RhythmAether"
 config/description="Creator-First Open Rhythm Game Platform"
-run/main_scene="res://scenes/gameplay.tscn"
+run/main_scene="res://scenes/title_screen.tscn"
 config/features=PackedStringArray("4.3")
 
 [display]
