@@ -28,7 +28,7 @@ const LINE_GLOW_COLOR := Color(0.91, 0.27, 0.37, 0.15)
 @onready var combo_sub_label: Label = $UILayer/ComboSubLabel
 @onready var judgment_label: Label = $UILayer/JudgmentLabel
 @onready var timing_label: Label = $UILayer/TimingLabel
-@onready var bg_rect: ColorRect = $Background
+@onready var bg_overlay: ColorRect = $BackgroundOverlay
 
 # --- State ---
 var chart: ChartLoader.ChartData
@@ -255,10 +255,9 @@ func _process(delta: float) -> void:
 		_beat_pulse *= exp(-6.0 * delta)
 	else:
 		_beat_pulse = 0.0
-	# Feed beat pulse to shader
-	var mat = bg_rect.material as ShaderMaterial
-	if mat:
-		mat.set_shader_parameter("beat_pulse", _beat_pulse)
+	# Feed beat pulse to background overlay
+	if bg_overlay:
+		bg_overlay.color.a = 0.35 - _beat_pulse * 0.12
 
 	# Song end
 	var song_length = audio_player.stream.get_length() + 1.0 if audio_player.stream else _song_duration

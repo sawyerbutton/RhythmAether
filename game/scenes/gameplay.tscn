@@ -1,25 +1,24 @@
-[gd_scene load_steps=4 format=3 uid="uid://gameplay001"]
+[gd_scene load_steps=3 format=3 uid="uid://gameplay001"]
 
 [ext_resource type="Script" path="res://scripts/gameplay.gd" id="1_gameplay"]
-[ext_resource type="Shader" path="res://resources/shaders/ink_background.gdshader" id="2_shader"]
-
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_bg"]
-shader = ExtResource("2_shader")
-shader_parameter/time_scale = 0.15
-shader_parameter/beat_pulse = 0.0
-shader_parameter/base_color = Color(0.102, 0.102, 0.18, 1)
-shader_parameter/ink_color = Color(0.91, 0.27, 0.37, 1)
-shader_parameter/deep_color = Color(0.06, 0.21, 0.38, 1)
+[ext_resource type="Texture2D" path="res://assets/textures/bg_gameplay.png" id="2_bg"]
 
 [node name="Gameplay" type="Node2D"]
 script = ExtResource("1_gameplay")
 
-[node name="Background" type="ColorRect" parent="."]
-material = SubResource("ShaderMaterial_bg")
+[node name="Background" type="TextureRect" parent="."]
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-color = Color(0.102, 0.102, 0.18, 1)
+texture = ExtResource("2_bg")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="BackgroundOverlay" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color(0.0, 0.0, 0.0, 0.35)
 
 [node name="JudgmentGlow" type="Line2D" parent="."]
 width = 20.0

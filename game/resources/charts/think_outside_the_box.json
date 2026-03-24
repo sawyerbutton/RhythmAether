@@ -14,146 +14,2826 @@
     {
       "beat": 0,
       "bpm": 124,
-      "timeSignature": { "numerator": 4, "denominator": 4 }
+      "timeSignature": {
+        "numerator": 4,
+        "denominator": 4
+      }
     }
   ],
   "offset": 1.595,
   "notes": [
-    {"type": "tap", "beat": 0.0, "x": 0.375},
-    {"type": "tap", "beat": 2.0, "x": 0.625},
-
-    {"type": "tap", "beat": 4.0, "x": 0.125},
-    {"type": "tap", "beat": 5.0, "x": 0.375},
-    {"type": "tap", "beat": 6.0, "x": 0.625},
-    {"type": "tap", "beat": 7.0, "x": 0.875},
-
-    {"type": "tap", "beat": 8.0, "x": 0.375},
-    {"type": "tap", "beat": 8.5, "x": 0.625},
-    {"type": "tap", "beat": 9.0, "x": 0.375},
-    {"type": "tap", "beat": 9.5, "x": 0.625},
-    {"type": "tap", "beat": 10.0, "x": 0.125},
-    {"type": "tap", "beat": 10.5, "x": 0.375},
-    {"type": "tap", "beat": 11.0, "x": 0.625},
-    {"type": "tap", "beat": 11.5, "x": 0.875},
-
-    {"type": "tap", "beat": 12.0, "x": 0.125},
-    {"type": "tap", "beat": 12.0, "x": 0.875},
-    {"type": "tap", "beat": 13.0, "x": 0.375},
-    {"type": "tap", "beat": 13.0, "x": 0.625},
-    {"type": "hold", "beat": 14.0, "endBeat": 16.0, "x": 0.375},
-    {"type": "tap", "beat": 15.0, "x": 0.875},
-
-    {"type": "tap", "beat": 16.0, "x": 0.125},
-    {"type": "tap", "beat": 16.5, "x": 0.375},
-    {"type": "tap", "beat": 17.0, "x": 0.625},
-    {"type": "tap", "beat": 17.5, "x": 0.875},
-    {"type": "tap", "beat": 18.0, "x": 0.625},
-    {"type": "tap", "beat": 18.5, "x": 0.375},
-    {"type": "tap", "beat": 19.0, "x": 0.125},
-    {"type": "tap", "beat": 19.5, "x": 0.875},
-
-    {"type": "tap", "beat": 20.0, "x": 0.375},
-    {"type": "tap", "beat": 20.0, "x": 0.625},
-    {"type": "tap", "beat": 21.0, "x": 0.125},
-    {"type": "tap", "beat": 21.0, "x": 0.875},
-    {"type": "tap", "beat": 22.0, "x": 0.375},
-    {"type": "tap", "beat": 22.5, "x": 0.625},
-    {"type": "tap", "beat": 23.0, "x": 0.375},
-    {"type": "tap", "beat": 23.5, "x": 0.625},
-
-    {"type": "hold", "beat": 24.0, "endBeat": 26.0, "x": 0.125},
-    {"type": "tap", "beat": 25.0, "x": 0.625},
-    {"type": "tap", "beat": 25.5, "x": 0.875},
-    {"type": "tap", "beat": 26.0, "x": 0.375},
-    {"type": "tap", "beat": 26.5, "x": 0.625},
-    {"type": "tap", "beat": 27.0, "x": 0.875},
-    {"type": "tap", "beat": 27.5, "x": 0.625},
-
-    {"type": "tap", "beat": 28.0, "x": 0.125},
-    {"type": "tap", "beat": 28.5, "x": 0.375},
-    {"type": "tap", "beat": 29.0, "x": 0.625},
-    {"type": "tap", "beat": 29.5, "x": 0.875},
-    {"type": "tap", "beat": 30.0, "x": 0.625},
-    {"type": "tap", "beat": 30.5, "x": 0.375},
-    {"type": "tap", "beat": 31.0, "x": 0.125},
-    {"type": "tap", "beat": 31.0, "x": 0.875},
-
-    {"type": "tap", "beat": 32.0, "x": 0.125},
-    {"type": "tap", "beat": 32.0, "x": 0.375},
-    {"type": "tap", "beat": 32.0, "x": 0.625},
-    {"type": "tap", "beat": 32.0, "x": 0.875},
-
-    {"type": "tap", "beat": 33.0, "x": 0.375},
-    {"type": "tap", "beat": 33.5, "x": 0.625},
-    {"type": "tap", "beat": 34.0, "x": 0.375},
-    {"type": "tap", "beat": 34.5, "x": 0.625},
-    {"type": "hold", "beat": 35.0, "endBeat": 36.0, "x": 0.125},
-    {"type": "tap", "beat": 35.0, "x": 0.875},
-
-    {"type": "tap", "beat": 36.0, "x": 0.375},
-    {"type": "tap", "beat": 36.25, "x": 0.625},
-    {"type": "tap", "beat": 36.5, "x": 0.375},
-    {"type": "tap", "beat": 36.75, "x": 0.625},
-    {"type": "tap", "beat": 37.0, "x": 0.125},
-    {"type": "tap", "beat": 37.5, "x": 0.375},
-    {"type": "tap", "beat": 38.0, "x": 0.625},
-    {"type": "tap", "beat": 38.5, "x": 0.875},
-    {"type": "tap", "beat": 39.0, "x": 0.125},
-    {"type": "tap", "beat": 39.0, "x": 0.875},
-
-    {"type": "hold", "beat": 40.0, "endBeat": 42.0, "x": 0.375},
-    {"type": "hold", "beat": 40.0, "endBeat": 42.0, "x": 0.625},
-
-    {"type": "tap", "beat": 42.0, "x": 0.125},
-    {"type": "tap", "beat": 42.5, "x": 0.375},
-    {"type": "tap", "beat": 43.0, "x": 0.625},
-    {"type": "tap", "beat": 43.5, "x": 0.875},
-
-    {"type": "tap", "beat": 44.0, "x": 0.875},
-    {"type": "tap", "beat": 44.5, "x": 0.625},
-    {"type": "tap", "beat": 45.0, "x": 0.375},
-    {"type": "tap", "beat": 45.5, "x": 0.125},
-    {"type": "tap", "beat": 46.0, "x": 0.375},
-    {"type": "tap", "beat": 46.0, "x": 0.625},
-    {"type": "hold", "beat": 47.0, "endBeat": 48.0, "x": 0.875},
-
-    {"type": "tap", "beat": 48.0, "x": 0.125},
-    {"type": "tap", "beat": 48.25, "x": 0.375},
-    {"type": "tap", "beat": 48.5, "x": 0.625},
-    {"type": "tap", "beat": 48.75, "x": 0.875},
-    {"type": "tap", "beat": 49.0, "x": 0.625},
-    {"type": "tap", "beat": 49.25, "x": 0.375},
-    {"type": "tap", "beat": 49.5, "x": 0.125},
-    {"type": "tap", "beat": 49.75, "x": 0.375},
-
-    {"type": "tap", "beat": 50.0, "x": 0.625},
-    {"type": "tap", "beat": 50.5, "x": 0.875},
-    {"type": "tap", "beat": 51.0, "x": 0.625},
-    {"type": "tap", "beat": 51.5, "x": 0.375},
-    {"type": "tap", "beat": 52.0, "x": 0.125},
-    {"type": "tap", "beat": 52.0, "x": 0.875},
-    {"type": "tap", "beat": 53.0, "x": 0.375},
-    {"type": "tap", "beat": 53.0, "x": 0.625},
-
-    {"type": "hold", "beat": 54.0, "endBeat": 56.0, "x": 0.125},
-    {"type": "hold", "beat": 54.0, "endBeat": 56.0, "x": 0.875},
-
-    {"type": "tap", "beat": 56.0, "x": 0.375},
-    {"type": "tap", "beat": 56.5, "x": 0.625},
-    {"type": "tap", "beat": 57.0, "x": 0.375},
-    {"type": "tap", "beat": 57.5, "x": 0.625},
-    {"type": "tap", "beat": 58.0, "x": 0.125},
-    {"type": "tap", "beat": 58.5, "x": 0.375},
-    {"type": "tap", "beat": 59.0, "x": 0.625},
-    {"type": "tap", "beat": 59.5, "x": 0.875},
-
-    {"type": "tap", "beat": 60.0, "x": 0.125},
-    {"type": "tap", "beat": 60.0, "x": 0.375},
-    {"type": "tap", "beat": 60.0, "x": 0.625},
-    {"type": "tap", "beat": 60.0, "x": 0.875},
-
-    {"type": "hold", "beat": 62.0, "endBeat": 64.0, "x": 0.375},
-    {"type": "hold", "beat": 62.0, "endBeat": 64.0, "x": 0.625}
+    {
+      "type": "tap",
+      "beat": 0,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 2,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 4,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 6,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 7,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 8,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 8.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 9,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 9.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 10,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 10.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 11,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 11.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 12,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 12,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 13,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 13,
+      "x": 0.625
+    },
+    {
+      "type": "hold",
+      "beat": 14,
+      "endBeat": 16,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 15,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 16,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 16.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 17,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 17.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 18,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 18.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 19,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 19.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 20,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 20,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 21,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 21,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 22,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 22.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 23,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 23.5,
+      "x": 0.625
+    },
+    {
+      "type": "hold",
+      "beat": 24,
+      "endBeat": 26,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 25,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 25.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 26,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 26.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 27,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 27.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 28,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 28.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 29,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 29.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 30,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 30.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 31,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 31,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 32,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 32,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 32,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 32,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 33,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 33.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 34,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 34.5,
+      "x": 0.625
+    },
+    {
+      "type": "hold",
+      "beat": 35,
+      "endBeat": 36,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 35,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 36,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 36.25,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 36.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 36.75,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 37,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 37.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 38,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 38.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 39,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 39,
+      "x": 0.875
+    },
+    {
+      "type": "hold",
+      "beat": 40,
+      "endBeat": 42,
+      "x": 0.375
+    },
+    {
+      "type": "hold",
+      "beat": 40,
+      "endBeat": 42,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 42,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 42.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 43,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 43.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 44,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 44.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 45,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 45.5,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 46,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 46,
+      "x": 0.625
+    },
+    {
+      "type": "hold",
+      "beat": 47,
+      "endBeat": 48,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 48,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 48.25,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 48.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 48.75,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 49,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 49.25,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 49.5,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 49.75,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 50,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 50.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 51,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 51.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 52,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 52,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 53,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 53,
+      "x": 0.625
+    },
+    {
+      "type": "hold",
+      "beat": 54,
+      "endBeat": 56,
+      "x": 0.125
+    },
+    {
+      "type": "hold",
+      "beat": 54,
+      "endBeat": 56,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 56,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 56.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 57,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 57.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 58,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 58.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 59,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 59.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 60,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 60,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 60,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 60,
+      "x": 0.875
+    },
+    {
+      "type": "hold",
+      "beat": 62,
+      "endBeat": 64,
+      "x": 0.375
+    },
+    {
+      "type": "hold",
+      "beat": 62,
+      "endBeat": 64,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 64,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 66,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 68,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 69,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 70,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 71,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 72,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 72.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 73,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 73.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 74,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 75,
+      "x": 0.875
+    },
+    {
+      "type": "hold",
+      "beat": 76,
+      "endBeat": 78,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 77,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 77.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 78,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 79,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 80,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 81,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 82,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 83,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 84,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 84.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 85,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 85.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 86,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 86.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 87,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 87.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 88,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 88,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 89,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 89.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 90,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 90.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 91,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 91.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 92,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 92.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 93,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 93,
+      "x": 0.625
+    },
+    {
+      "type": "hold",
+      "beat": 94,
+      "endBeat": 96,
+      "x": 0.125
+    },
+    {
+      "type": "hold",
+      "beat": 94,
+      "endBeat": 96,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 96,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 96,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 96,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 96,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 97,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 97.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 98,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 98.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 99,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 99.5,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 100,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 100.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 101,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 101.5,
+      "x": 0.375
+    },
+    {
+      "type": "hold",
+      "beat": 102,
+      "endBeat": 104,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 103,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 103.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 104,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 104.25,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 104.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 104.75,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 105,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 105.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 106,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 106.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 107,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 107,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 108,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 108.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 109,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 109.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 110,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 110.5,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 111,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 111,
+      "x": 0.625
+    },
+    {
+      "type": "hold",
+      "beat": 112,
+      "endBeat": 114,
+      "x": 0.375
+    },
+    {
+      "type": "hold",
+      "beat": 112,
+      "endBeat": 114,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 114,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 114.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 115,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 115.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 116,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 116.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 117,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 117.5,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 118,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 118,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 119,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 119.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 120,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 120.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 121,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 121.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 122,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 122.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 123,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 123.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 124,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 124,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 125,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 125,
+      "x": 0.625
+    },
+    {
+      "type": "hold",
+      "beat": 126,
+      "endBeat": 128,
+      "x": 0.125
+    },
+    {
+      "type": "hold",
+      "beat": 126,
+      "endBeat": 128,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 128,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 128,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 128,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 128,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 129,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 129.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 130,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 130.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 131,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 131.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 132,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 132.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 133,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 133.25,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 133.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 133.75,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 134,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 134,
+      "x": 0.875
+    },
+    {
+      "type": "hold",
+      "beat": 135,
+      "endBeat": 136,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 135.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 136,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 136.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 137,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 137.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 138,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 138.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 139,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 139.5,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 140,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 140,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 141,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 141.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 142,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 142.25,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 142.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 142.75,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 143,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 143.5,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 144,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 144,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 144,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 144,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 145,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 145.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 146,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 146.5,
+      "x": 0.625
+    },
+    {
+      "type": "hold",
+      "beat": 147,
+      "endBeat": 148,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 147,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 148,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 148.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 149,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 149.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 150,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 150.5,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 151,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 151,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 152,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 152.25,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 152.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 152.75,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 153,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 153.5,
+      "x": 0.875
+    },
+    {
+      "type": "hold",
+      "beat": 154,
+      "endBeat": 156,
+      "x": 0.375
+    },
+    {
+      "type": "hold",
+      "beat": 154,
+      "endBeat": 156,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 156,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 156.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 157,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 157.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 158,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 158,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 159,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 159,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 160,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 160,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 160,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 160,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 161,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 161.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 162,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 162.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 163,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 163.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 164,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 164.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 165,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 165.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 166,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 166,
+      "x": 0.625
+    },
+    {
+      "type": "hold",
+      "beat": 167,
+      "endBeat": 168,
+      "x": 0.125
+    },
+    {
+      "type": "hold",
+      "beat": 167,
+      "endBeat": 168,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 168,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 168.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 169,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 169.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 170,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 170.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 171,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 171.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 172,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 172,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 173,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 173.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 174,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 174.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 175,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 175.5,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 176,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 176,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 176,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 176,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 177,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 177.25,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 177.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 177.75,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 178,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 178.25,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 178.5,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 178.75,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 179,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 179.5,
+      "x": 0.875
+    },
+    {
+      "type": "hold",
+      "beat": 180,
+      "endBeat": 182,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 180.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 181,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 181.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 182,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 182.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 183,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 183.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 184,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 184,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 184,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 184,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 185,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 185.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 186,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 186.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 187,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 187.5,
+      "x": 0.125
+    },
+    {
+      "type": "hold",
+      "beat": 188,
+      "endBeat": 190,
+      "x": 0.375
+    },
+    {
+      "type": "hold",
+      "beat": 188,
+      "endBeat": 190,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 190,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 190.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 191,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 191,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 191,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 191,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 192,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 192.25,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 192.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 192.75,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 193,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 193.25,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 193.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 193.75,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 194,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 194,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 195,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 195.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 196,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 196.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 197,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 197.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 198,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 198,
+      "x": 0.875
+    },
+    {
+      "type": "hold",
+      "beat": 199,
+      "endBeat": 200,
+      "x": 0.375
+    },
+    {
+      "type": "hold",
+      "beat": 199,
+      "endBeat": 200,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 200,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 200.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 201,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 201.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 202,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 202.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 203,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 203.5,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 204,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 204,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 204,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 204,
+      "x": 0.875
+    },
+    {
+      "type": "hold",
+      "beat": 206,
+      "endBeat": 208,
+      "x": 0.375
+    },
+    {
+      "type": "hold",
+      "beat": 206,
+      "endBeat": 208,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 208,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 208.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 209,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 209.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 210,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 210.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 211,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 211.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 212,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 212,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 213,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 213.5,
+      "x": 0.875
+    },
+    {
+      "type": "hold",
+      "beat": 214,
+      "endBeat": 216,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 215,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 215.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 216,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 216.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 217,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 217.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 218,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 218.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 219,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 219.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 220,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 220,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 221,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 221.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 222,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 222.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 223,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 223,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 223,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 223,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 224,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 226,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 228,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 229,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 230,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 231,
+      "x": 0.875
+    },
+    {
+      "type": "hold",
+      "beat": 232,
+      "endBeat": 234,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 234,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 235,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 236,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 236.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 237,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 237.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 238,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 239,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 240,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 241,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 242,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 243,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 244,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 244.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 245,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 245.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 246,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 246.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 247,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 247.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 248,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 248,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 249,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 249,
+      "x": 0.625
+    },
+    {
+      "type": "hold",
+      "beat": 250,
+      "endBeat": 252,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 251,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 252,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 252.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 253,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 253.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 254,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 254.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 255,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 255,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 256,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 256,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 256,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 256,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 257,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 257.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 258,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 258.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 259,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 259.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 260,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 260.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 261,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 261.5,
+      "x": 0.625
+    },
+    {
+      "type": "hold",
+      "beat": 262,
+      "endBeat": 264,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 263,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 263.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 264,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 264.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 265,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 265.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 266,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 266,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 267,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 267,
+      "x": 0.625
+    },
+    {
+      "type": "hold",
+      "beat": 268,
+      "endBeat": 270,
+      "x": 0.375
+    },
+    {
+      "type": "hold",
+      "beat": 268,
+      "endBeat": 270,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 270,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 270.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 271,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 271,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 271,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 271,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 272,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 272.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 273,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 273.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 274,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 274.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 275,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 275.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 276,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 276,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 277,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 277.5,
+      "x": 0.875
+    },
+    {
+      "type": "hold",
+      "beat": 278,
+      "endBeat": 280,
+      "x": 0.375
+    },
+    {
+      "type": "hold",
+      "beat": 278,
+      "endBeat": 280,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 280,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 280.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 281,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 281.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 282,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 282.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 283,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 283.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 284,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 284,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 285,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 285.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 286,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 286.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 287,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 287.5,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 288,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 289,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 290,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 291,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 292,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 293,
+      "x": 0.625
+    },
+    {
+      "type": "hold",
+      "beat": 294,
+      "endBeat": 296,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 296,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 297,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 298,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 299,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 300,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 300,
+      "x": 0.625
+    },
+    {
+      "type": "hold",
+      "beat": 302,
+      "endBeat": 306,
+      "x": 0.375
+    },
+    {
+      "type": "hold",
+      "beat": 302,
+      "endBeat": 306,
+      "x": 0.625
+    }
   ],
   "events": []
 }
