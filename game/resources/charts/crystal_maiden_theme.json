@@ -1,0 +1,365 @@
+{
+  "version": "1.0.0",
+  "metadata": {
+    "title": "Crystal Maiden Theme",
+    "artist": "AI Generated (ElevenLabs)",
+    "charter": "AI Generator",
+    "audioFile": "../audio/crystal_maiden_theme.ogg",
+    "difficulty": {
+      "label": "Normal",
+      "level": 5
+    }
+  },
+  "timing": [
+    {
+      "beat": 0,
+      "bpm": 99,
+      "timeSignature": {
+        "numerator": 4,
+        "denominator": 4
+      }
+    }
+  ],
+  "offset": 0.24,
+  "notes": [
+    {
+      "type": "tap",
+      "beat": 0.0,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 2.0,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 4.0,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 5.0,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 8.0,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 9.0,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 9.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 10.0,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 10.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 13.0,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 13.5,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 16.0,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 16.5,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 17.0,
+      "x": 0.125
+    },
+    {
+      "type": "hold",
+      "beat": 19.0,
+      "endBeat": 21.0,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 20.0,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 23.0,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 23.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 24.0,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 24.5,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 25.0,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 25.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 26.0,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 27.0,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 31.0,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 31.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 32.0,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 32.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 35.0,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 35.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 36.0,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 36.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 45.0,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 47.0,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 50.0,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 50.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 51.0,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 51.5,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 52.0,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 52.0,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 53.0,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 54.0,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 54.5,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 60.0,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 60.0,
+      "x": 0.625
+    },
+    {
+      "type": "hold",
+      "beat": 61.0,
+      "endBeat": 63.0,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 62.0,
+      "x": 0.375
+    },
+    {
+      "type": "hold",
+      "beat": 64.0,
+      "endBeat": 66.0,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 65.0,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 68.0,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 68.0,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 69.0,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 69.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 71.0,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 72.0,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 72.0,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 73.0,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 74.0,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 77.0,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 78.0,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 78.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 80.0,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 81.0,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 84.0,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 84.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 86.0,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 87.0,
+      "x": 0.875
+    }
+  ],
+  "events": []
+}

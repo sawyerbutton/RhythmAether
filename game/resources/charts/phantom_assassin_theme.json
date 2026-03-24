@@ -1,0 +1,319 @@
+{
+  "version": "1.0.0",
+  "metadata": {
+    "title": "Phantom Assassin Theme",
+    "artist": "AI Generated (ElevenLabs)",
+    "charter": "AI Generator",
+    "audioFile": "../audio/phantom_assassin_theme.ogg",
+    "difficulty": {
+      "label": "Normal",
+      "level": 5
+    }
+  },
+  "timing": [
+    {
+      "beat": 0,
+      "bpm": 140,
+      "timeSignature": {
+        "numerator": 4,
+        "denominator": 4
+      }
+    }
+  ],
+  "offset": 0.03,
+  "notes": [
+    {
+      "type": "tap",
+      "beat": 0.0,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 2.0,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 4.0,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 5.0,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 8.0,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 16.0,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 17.0,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 17.0,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 20.0,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 21.0,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 21.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 23.0,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 23.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 24.0,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 24.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 40.0,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 41.0,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 47.0,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 56.0,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 56.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 61.0,
+      "x": 0.125
+    },
+    {
+      "type": "hold",
+      "beat": 67.0,
+      "endBeat": 69.0,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 68.0,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 71.0,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 72.0,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 72.0,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 73.0,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 73.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 75.0,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 75.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 76.0,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 76.5,
+      "x": 0.875
+    },
+    {
+      "type": "hold",
+      "beat": 78.0,
+      "endBeat": 80.0,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 79.0,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 82.0,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 82.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 84.0,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 84.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 86.0,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 86.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 90.0,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 90.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 92.0,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 96.0,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 96.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 102.0,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 111.0,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 112.0,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 112.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 115.0,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 115.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 120.0,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 120.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 128.0,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 128.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 129.0,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 131.0,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 138.0,
+      "x": 0.875
+    }
+  ],
+  "events": []
+}
