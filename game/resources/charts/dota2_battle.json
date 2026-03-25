@@ -6,22 +6,22 @@
     "charter": "AI Generator",
     "audioFile": "../audio/dota2_battle.ogg",
     "difficulty": {
-      "label": "Hard",
-      "level": 8
+      "label": "Normal",
+      "level": 6
     },
     "videoFile": "../video/dota2_clip.ogv"
   },
   "timing": [
     {
       "beat": 0,
-      "bpm": 99,
+      "bpm": 140,
       "timeSignature": {
         "numerator": 4,
         "denominator": 4
       }
     }
   ],
-  "offset": 7.1646,
+  "offset": 0.24,
   "notes": [
     {
       "type": "tap",
@@ -50,208 +50,194 @@
     },
     {
       "type": "tap",
-      "beat": 9.0,
-      "x": 0.375
-    },
-    {
-      "type": "tap",
-      "beat": 9.5,
-      "x": 0.625
-    },
-    {
-      "type": "tap",
-      "beat": 12.0,
-      "x": 0.625
-    },
-    {
-      "type": "tap",
-      "beat": 12.5,
-      "x": 0.875
-    },
-    {
-      "type": "tap",
-      "beat": 13.0,
-      "x": 0.125
-    },
-    {
-      "type": "tap",
-      "beat": 13.0,
-      "x": 0.625
-    },
-    {
-      "type": "tap",
       "beat": 16.0,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 21.0,
       "x": 0.125
     },
     {
       "type": "tap",
-      "beat": 17.0,
-      "x": 0.625
-    },
-    {
-      "type": "tap",
-      "beat": 18.0,
+      "beat": 21.5,
       "x": 0.875
     },
     {
       "type": "tap",
-      "beat": 18.5,
-      "x": 0.375
-    },
-    {
-      "type": "tap",
-      "beat": 19.0,
-      "x": 0.625
-    },
-    {
-      "type": "tap",
-      "beat": 19.5,
-      "x": 0.375
-    },
-    {
-      "type": "tap",
-      "beat": 33.0,
+      "beat": 25.0,
       "x": 0.125
     },
     {
       "type": "tap",
-      "beat": 33.5,
+      "beat": 27.0,
       "x": 0.375
     },
     {
       "type": "tap",
-      "beat": 34.0,
+      "beat": 27.5,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 37.0,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 37.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 38.0,
       "x": 0.625
     },
     {
       "type": "tap",
-      "beat": 34.5,
+      "beat": 38.5,
       "x": 0.875
     },
     {
       "type": "tap",
-      "beat": 35.0,
+      "beat": 40.0,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 40.5,
       "x": 0.125
     },
     {
       "type": "tap",
-      "beat": 35.5,
-      "x": 0.625
-    },
-    {
-      "type": "hold",
       "beat": 42.0,
-      "endBeat": 44.0,
       "x": 0.125
     },
     {
       "type": "tap",
-      "beat": 43.0,
-      "x": 0.375
-    },
-    {
-      "type": "tap",
-      "beat": 45.0,
-      "x": 0.625
+      "beat": 42.5,
+      "x": 0.875
     },
     {
       "type": "tap",
       "beat": 46.0,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 46.5,
       "x": 0.625
     },
     {
       "type": "tap",
-      "beat": 49.0,
-      "x": 0.125
+      "beat": 47.0,
+      "x": 0.375
     },
     {
       "type": "tap",
-      "beat": 49.5,
-      "x": 0.375
+      "beat": 47.5,
+      "x": 0.125
     },
     {
       "type": "tap",
       "beat": 50.0,
-      "x": 0.625
-    },
-    {
-      "type": "tap",
-      "beat": 50.5,
       "x": 0.875
-    },
-    {
-      "type": "tap",
-      "beat": 52.0,
-      "x": 0.375
-    },
-    {
-      "type": "tap",
-      "beat": 53.0,
-      "x": 0.125
-    },
-    {
-      "type": "tap",
-      "beat": 53.5,
-      "x": 0.375
     },
     {
       "type": "tap",
       "beat": 54.0,
-      "x": 0.625
+      "x": 0.875
     },
     {
       "type": "tap",
-      "beat": 57.0,
-      "x": 0.875
+      "beat": 58.0,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 58.5,
+      "x": 0.375
     },
     {
       "type": "tap",
       "beat": 59.0,
-      "x": 0.125
-    },
-    {
-      "type": "tap",
-      "beat": 59.5,
-      "x": 0.375
-    },
-    {
-      "type": "tap",
-      "beat": 60.0,
       "x": 0.625
     },
     {
       "type": "tap",
-      "beat": 60.5,
+      "beat": 59.5,
       "x": 0.875
     },
     {
       "type": "tap",
-      "beat": 64.0,
+      "beat": 61.0,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 61.0,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 63.0,
+      "x": 0.875
+    },
+    {
+      "type": "hold",
+      "beat": 65.0,
+      "endBeat": 67.0,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 66.0,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 69.0,
+      "x": 0.875
+    },
+    {
+      "type": "hold",
+      "beat": 70.0,
+      "endBeat": 72.0,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 71.0,
       "x": 0.375
     },
     {
       "type": "tap",
-      "beat": 64.5,
-      "x": 0.125
+      "beat": 74.0,
+      "x": 0.625
     },
     {
       "type": "tap",
-      "beat": 73.0,
-      "x": 0.125
-    },
-    {
-      "type": "tap",
-      "beat": 73.5,
+      "beat": 74.5,
       "x": 0.375
     },
     {
       "type": "tap",
       "beat": 76.0,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 76.5,
       "x": 0.375
     },
     {
       "type": "tap",
-      "beat": 76.0,
+      "beat": 77.0,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 77.5,
       "x": 0.875
     },
     {
@@ -271,53 +257,196 @@
     },
     {
       "type": "tap",
+      "beat": 81.5,
+      "x": 0.625
+    },
+    {
+      "type": "hold",
+      "beat": 82.0,
+      "endBeat": 84.0,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
       "beat": 83.0,
       "x": 0.375
     },
     {
       "type": "tap",
-      "beat": 83.25,
-      "x": 0.625
-    },
-    {
-      "type": "tap",
-      "beat": 83.5,
-      "x": 0.375
-    },
-    {
-      "type": "tap",
-      "beat": 83.75,
-      "x": 0.625
-    },
-    {
-      "type": "tap",
-      "beat": 84.0,
-      "x": 0.125
-    },
-    {
-      "type": "tap",
-      "beat": 84.0,
-      "x": 0.625
-    },
-    {
-      "type": "tap",
       "beat": 85.0,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 87.0,
       "x": 0.875
     },
     {
       "type": "tap",
-      "beat": 85.5,
+      "beat": 88.0,
       "x": 0.375
     },
     {
       "type": "tap",
-      "beat": 86.0,
-      "x": 0.375
+      "beat": 88.0,
+      "x": 0.875
     },
     {
       "type": "tap",
-      "beat": 86.5,
+      "beat": 90.0,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 90.5,
       "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 91.0,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 91.5,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 93.0,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 95.0,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 95.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 96.0,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 96.5,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 97.0,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 97.5,
+      "x": 0.875
+    },
+    {
+      "type": "hold",
+      "beat": 100.0,
+      "endBeat": 102.0,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 101.0,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 105.0,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 113.0,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 113.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 116.0,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 116.0,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 117.0,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 119.0,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 119.5,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 126.0,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 126.5,
+      "x": 0.125
+    },
+    {
+      "type": "hold",
+      "beat": 130.0,
+      "endBeat": 132.0,
+      "x": 0.875
+    },
+    {
+      "type": "tap",
+      "beat": 131.0,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 133.0,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 134.0,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 135.0,
+      "x": 0.125
+    },
+    {
+      "type": "tap",
+      "beat": 135.5,
+      "x": 0.625
+    },
+    {
+      "type": "tap",
+      "beat": 136.0,
+      "x": 0.375
+    },
+    {
+      "type": "tap",
+      "beat": 136.0,
+      "x": 0.875
     }
   ],
   "events": []

@@ -46,22 +46,22 @@ func _draw() -> void:
 			_draw_slide()
 
 func _draw_tap() -> void:
-	var size = TAP_SIZE * GameManager.note_size_scale
+	var size = TAP_SIZE * GameManager.note_size_scale * 1.15  # slightly bigger
 	var half = size / 2.0
 	var pulse = 1.0 + sin(_pulse_time) * 0.06
 
 	# Light pillar trail (vertical beam going upward)
-	var trail_h = 65.0
-	for i in range(8):
-		var t = float(i) / 8.0
+	var trail_h = 80.0
+	for i in range(10):
+		var t = float(i) / 10.0
 		var y = -trail_h * t
-		var w = half * 0.18 * (1.0 - t * 0.7)
-		var alpha = 0.2 * (1.0 - t)
+		var w = half * 0.22 * (1.0 - t * 0.7)
+		var alpha = 0.3 * (1.0 - t)
 		draw_rect(Rect2(-w, y - 4, w * 2, 5), Color(COLOR_PRIMARY.r, COLOR_PRIMARY.g, COLOR_PRIMARY.b, alpha))
 
-	# Outer glow (soft radial)
-	draw_circle(Vector2.ZERO, GLOW_RADIUS * 1.5 * pulse, Color(COLOR_PRIMARY.r, COLOR_PRIMARY.g, COLOR_PRIMARY.b, 0.06))
-	draw_circle(Vector2.ZERO, GLOW_RADIUS * pulse, Color(COLOR_PRIMARY.r, COLOR_PRIMARY.g, COLOR_PRIMARY.b, 0.15))
+	# Outer glow (soft radial) — brighter for visibility on video
+	draw_circle(Vector2.ZERO, GLOW_RADIUS * 2.0 * pulse, Color(COLOR_PRIMARY.r, COLOR_PRIMARY.g, COLOR_PRIMARY.b, 0.1))
+	draw_circle(Vector2.ZERO, GLOW_RADIUS * 1.3 * pulse, Color(COLOR_PRIMARY.r, COLOR_PRIMARY.g, COLOR_PRIMARY.b, 0.25))
 
 	# Diamond body
 	var points = PackedVector2Array([
@@ -80,16 +80,16 @@ func _draw_tap() -> void:
 		Vector2(0, inner * 0.8),
 		Vector2(-inner, 0)
 	])
-	draw_colored_polygon(inner_points, Color(1.0, 0.5, 0.55, 0.4))
+	draw_colored_polygon(inner_points, Color(1.0, 0.55, 0.6, 0.6))
 
 	# Horizontal light flare through center
-	draw_line(Vector2(-half * 0.7, 0), Vector2(half * 0.7, 0), Color(1.0, 0.7, 0.75, 0.3 + sin(_pulse_time * 2) * 0.1), 1.5)
+	draw_line(Vector2(-half * 0.9, 0), Vector2(half * 0.9, 0), Color(1.0, 0.7, 0.75, 0.4 + sin(_pulse_time * 2) * 0.15), 2.0)
 
 	# Bright core dot
-	draw_circle(Vector2.ZERO, 2.5, Color(1.0, 0.95, 0.95, 0.8))
+	draw_circle(Vector2.ZERO, 3.5, Color(1.0, 0.95, 0.95, 0.9))
 
-	# Crisp border
-	draw_polyline(points + PackedVector2Array([points[0]]), Color(1.0, 0.55, 0.6, 0.9), 1.5, true)
+	# Crisp bright border
+	draw_polyline(points + PackedVector2Array([points[0]]), Color(1.0, 0.6, 0.65, 1.0), 2.0, true)
 
 func _draw_hold() -> void:
 	var size = TAP_SIZE * GameManager.note_size_scale

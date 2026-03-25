@@ -3,7 +3,7 @@ extends Control
 @onready var title_label: Label = $TitleLabel
 @onready var subtitle_label: Label = $SubtitleLabel
 @onready var start_label: Label = $StartLabel
-@onready var bg: ColorRect = $Background
+@onready var bg: TextureRect = $Background
 
 var _time: float = 0.0
 var _fade_in: float = 0.0

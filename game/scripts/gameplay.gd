@@ -28,8 +28,14 @@ const LINE_GLOW_COLOR := Color(0.91, 0.27, 0.37, 0.15)
 @onready var combo_sub_label: Label = $UILayer/ComboSubLabel
 @onready var judgment_label: Label = $UILayer/JudgmentLabel
 @onready var timing_label: Label = $UILayer/TimingLabel
+@onready var bg_image: TextureRect = $Background
 @onready var bg_overlay: ColorRect = $BackgroundOverlay
 @onready var video_player: VideoStreamPlayer = $VideoBackground
+@onready var video_flash: ColorRect = $VideoFlash
+
+# Video mode state
+var _has_video: bool = false
+var _video_flash_intensity: float = 0.0
 
 # --- State ---
 var chart: ChartLoader.ChartData
@@ -168,13 +174,25 @@ func _load_and_start() -> void:
 		audio_player.volume_db = linear_to_db(GameManager.music_volume)
 
 	# Check for video background (from chart metadata videoFile field)
+	_has_video = false
 	if video_player:
 		video_player.visible = false
+		if video_flash:
+			video_flash.visible = false
 		if chart.video_file != "":
 			var video_path = active_chart_path.get_base_dir().path_join(chart.video_file).simplify_path()
-			if ResourceLoader.exists(video_path):
-				video_player.stream = load(video_path)
+			if FileAccess.file_exists(video_path):
+				var vst = VideoStreamTheora.new()
+				vst.file = video_path
+				video_player.stream = vst
 				video_player.visible = true
+				_has_video = true
+				# Hide static background so video shows through
+				if bg_image:
+					bg_image.visible = false
+				if video_flash:
+					video_flash.visible = true
+					video_flash.color = Color(1, 1, 1, 0)
 
 	next_note_index = 0
 	playing = true
@@ -196,7 +214,7 @@ func _process(delta: float) -> void:
 
 	if current_time >= 0.0 and not _audio_started and audio_player.stream:
 		audio_player.play()
-		if video_player and video_player.stream and video_player.visible:
+		if _has_video and video_player and video_player.stream:
 			video_player.play()
 		_audio_started = true
 
@@ -275,7 +293,18 @@ func _process(delta: float) -> void:
 		_beat_pulse = 0.0
 	# Feed beat pulse to background overlay
 	if bg_overlay:
-		bg_overlay.color.a = 0.35 - _beat_pulse * 0.12
+		if _has_video:
+			bg_overlay.color.a = 0.6 - _beat_pulse * 0.08  # much darker overlay for video mode
+		else:
+			bg_overlay.color.a = 0.35 - _beat_pulse * 0.12
+
+	# Video flash decay
+	if _has_video and _video_flash_intensity > 0.01:
+		_video_flash_intensity *= exp(-12.0 * delta)
+		if video_flash:
+			video_flash.color = Color(1, 1, 1, _video_flash_intensity * 0.4)
+	elif video_flash and _has_video:
+		video_flash.color = Color(1, 1, 1, 0)
 
 	# Song end
 	var song_length = audio_player.stream.get_length() + 1.0 if audio_player.stream else _song_duration
@@ -285,6 +314,21 @@ func _process(delta: float) -> void:
 	queue_redraw()
 
 func _draw() -> void:
+	# Video mode: gradient darkening from top (light) to bottom (dark) for note readability
+	if _has_video:
+		# Top 30%: light overlay (video visible)
+		# 30-50%: gradient transition
+		# 50-100%: heavier dark overlay (notes readable)
+		var transition_start = screen_h * 0.3
+		var transition_end = screen_h * 0.55
+		for i in range(25):
+			var t = float(i) / 25.0
+			var y = transition_start + t * (transition_end - transition_start)
+			var alpha = t * 0.55
+			draw_line(Vector2(0, y), Vector2(screen_w, y), Color(0.04, 0.04, 0.08, alpha), 6.0)
+		# Bottom panel
+		draw_rect(Rect2(0, transition_end, screen_w, screen_h - transition_end), Color(0.04, 0.04, 0.08, 0.55))
+
 	# Beat-reactive background vignette/pulse
 	if _beat_pulse > 0.05:
 		var pulse_alpha = _beat_pulse * 0.06
@@ -579,21 +623,29 @@ func _apply_judgment(note_obj: NoteObject, result: Judge.JudgmentResult) -> void
 func _trigger_hit_effects(result: Judge.JudgmentResult, pos: Vector2) -> void:
 	match result.grade:
 		Judge.Grade.PERFECT:
-			_shake_intensity = 6.0
-			_line_pulse = 1.0
-			_spawn_hit_particles(pos, Judge.grade_to_color(result.grade), 12)
+			_shake_intensity = 12.0 if _has_video else 6.0
+			_line_pulse = 1.5 if _has_video else 1.0
+			_spawn_hit_particles(pos, Judge.grade_to_color(result.grade), 20 if _has_video else 12)
 			_play_hitsound()
+			if _has_video:
+				_video_flash_intensity = 1.0
+				# Also briefly reduce overlay to flash the video bright
+				bg_overlay.color.a = 0.2
 		Judge.Grade.GREAT:
-			_shake_intensity = 3.0
-			_line_pulse = 0.5
-			_spawn_hit_particles(pos, Judge.grade_to_color(result.grade), 8)
+			_shake_intensity = 6.0 if _has_video else 3.0
+			_line_pulse = 0.8 if _has_video else 0.5
+			_spawn_hit_particles(pos, Judge.grade_to_color(result.grade), 14 if _has_video else 8)
 			_play_hitsound()
+			if _has_video:
+				_video_flash_intensity = 0.6
 		Judge.Grade.GOOD:
-			_line_pulse = 0.2
-			_spawn_hit_particles(pos, Judge.grade_to_color(result.grade), 4)
+			_line_pulse = 0.3 if _has_video else 0.2
+			_spawn_hit_particles(pos, Judge.grade_to_color(result.grade), 6 if _has_video else 4)
 			_play_hitsound()
 		Judge.Grade.MISS:
-			pass
+			if _has_video:
+				# Darken video briefly on miss for contrast
+				bg_overlay.color.a = 0.75
 
 	if score_tracker.combo >= 2:
 		_combo_target_scale = 1.0
